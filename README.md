@@ -28,10 +28,12 @@ session_a/
 ├── pbmc.csv.gz             # Raw counts expression matrix
 ├── annotation.csv.gz       # Table with annotation information
 session_b/
+├── pbmc.metadata.txt.gz    # Ground-truth cell labels
 ├── session_b.ipynb         # Jupyter notebook with code for dimensionality reduction and clustering
 session_c/
 ├── session_c.ipynb         # Jupyter notebook with code for cell type annotation
 ├── sctype.csv              # Table with marker gene lists
+├── mapping.csv             # Table with gene symbol to Ensembl gene id mapping
 slides/
 ├── scRNA-seq_analysis.pdf  # Workshop slides
 env.yml                     # Conda environment
@@ -52,7 +54,7 @@ In case you are working on an environment that already has Python installed, ope
 
 In case you are using conda to manage environments, open a terminal and execute the following command.
 
-`conda create --file conda_env.yml`
+`conda create --file env.yml`
 
 ## Contact
 

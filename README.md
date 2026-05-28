@@ -54,7 +54,7 @@ In case you are working on an environment that already has Python installed, ope
 
 In case you are using conda to manage environments, open a terminal and execute the following command.
 
-`conda create --file env.yml`
+`conda env create --file env.yml`
 
 ## Contact
 
